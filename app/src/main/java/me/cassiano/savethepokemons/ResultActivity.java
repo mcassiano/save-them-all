@@ -25,7 +25,7 @@ public class ResultActivity extends AppCompatActivity {
     public static void start(Context context, Problem problem) {
         Intent intent = new Intent(context, ResultActivity.class);
         intent.putExtra(EXTRA_PROBLEM, Parcels.wrap(problem));
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 
         context.startActivity(intent);
     }
