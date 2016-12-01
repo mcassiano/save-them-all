@@ -57,7 +57,6 @@ public class ResultScreenViewModel implements IViewModel {
         mSubscription = App
                 .getService()
                 .runSimplex(mProblem)
-                .delay(1, TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(getObserver());
