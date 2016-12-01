@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Save the Pokemons</string>
+    <string name="city_pewter">Pewter</string>
+    <string name="city_veridian">Veridian</string>
+    <string name="city_pallet">Pallet</string>
+    <string name="city_cinnabar">Cinnabar</string>
+    <string name="city_cerulean">Cerulean</string>
+    <string name="city_celadon">Celadon</string>
+    <string name="city_saffron">Saffron</string>
+    <string name="city_vermillion">Vermillion</string>
+    <string name="city_fushia">Fushia</string>
+    <string name="city_lavender">Lavender</string>
+    <string name="activity_origin">Origem</string>
+    <string name="activity_destination">Destino</string>
+</resources>
