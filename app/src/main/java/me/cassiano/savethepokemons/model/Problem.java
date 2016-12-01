@@ -3,10 +3,13 @@ package me.cassiano.savethepokemons.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Parcel(Parcel.Serialization.BEAN)
 public class Problem {
 
     @SerializedName("function")
@@ -14,11 +17,7 @@ public class Problem {
     @SerializedName("restrictions")
     private List<Restriction> restrictions;
 
-    private Problem() {
-
-    }
-
-    public static Problem getProblem(List<City> cities) {
+    public static Problem getDefaultProblem(List<City> cities) {
 
         Problem problem = new Problem();
 
@@ -31,7 +30,7 @@ public class Problem {
         function.setCoefficients(functionCoefficients);
 
         List<Integer> maxValues = Arrays.asList(250, 200, 300, 200, 300, 200, 100,
-                130, 200, 150, 170, 200, 130, 220, 0);
+                130, 200, 150, 170, 200, 150, 120, 0);
 
         problem.setFunction(function);
 

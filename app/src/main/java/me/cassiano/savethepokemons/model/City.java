@@ -55,7 +55,7 @@ public class City {
         cities.add(new City("Celadon", R.drawable.celadon, celadon));
         cities.add(new City("Cerulean", R.drawable.cerulean, cerulean));
         cities.add(new City("Cinnabar", R.drawable.cinnabar, cinnibar));
-        cities.add(new City("Fuchsia", R.drawable.fuchsia, fuschia));
+        cities.add(new City("Fuschia", R.drawable.fuchsia, fuschia));
         cities.add(new City("Lavender", R.drawable.lavender, lavender));
         cities.add(new City("Pallet", R.drawable.pallet, pallet));
         cities.add(new City("Pewter", R.drawable.pewter, pewter));

@@ -28,7 +28,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                app:imageResource="@{viewModel.city.picture}"
+                app:imageRes="@{viewModel.city.picture}"
                 tools:ignore="ContentDescription"
                 tools:src="@drawable/vermilion" />
 

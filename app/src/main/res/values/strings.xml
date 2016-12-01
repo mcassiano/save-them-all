@@ -2,4 +2,21 @@
     <string name="app_name">Save the Pokemons</string>
     <string name="activity_origin">Origem</string>
     <string name="activity_destination">Destino</string>
+    <string name="max_flow">Fluxo máximo</string>
+    <string name="ab">Pewter-Viridian</string>
+    <string name="bc">Viridian-Pallet</string>
+    <string name="cd">Pallet-Cinnabar</string>
+    <string name="di">Cinnabar-Fuschia</string>
+    <string name="if_">Fuschia-Celadon</string>
+    <string name="ij">Fuschia-Lavender</string>
+    <string name="fg">Celadon-Saffron</string>
+    <string name="fh">Celadon-Vermilion</string>
+    <string name="ae">Pewter-Cerulean</string>
+    <string name="eg">Cerulean-Saffron</string>
+    <string name="ej">Cerulean-Lavander</string>
+    <string name="gj">Saffron-Lavander</string>
+    <string name="hj">Vermilion-Lavander</string>
+    <string name="hg">Vermilion-Saffron</string>
+    <string name="no_path_found">Não existe um caminho para a configuração passada!</string>
+    <string name="title_activity_result">Resultado</string>
 </resources>

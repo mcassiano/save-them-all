@@ -4,6 +4,7 @@ import android.view.View;
 
 import java.util.List;
 
+import me.cassiano.savethepokemons.ResultActivity;
 import me.cassiano.savethepokemons.SelectDestinationActivity;
 import me.cassiano.savethepokemons.base.IViewModel;
 import me.cassiano.savethepokemons.model.City;
@@ -54,7 +55,8 @@ public class ItemCityViewModel implements IViewModel {
             cities.add(origin);
             cities.add(destination);
 
-            Problem problem = Problem.getProblem(cities);
+            Problem problem = Problem.getDefaultProblem(cities);
+            ResultActivity.start(view.getContext(), problem);
 
         }
     }
