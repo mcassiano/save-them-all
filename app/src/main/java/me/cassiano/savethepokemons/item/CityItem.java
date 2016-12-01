@@ -15,7 +15,7 @@ public class CityItem implements Item<ItemCityBinding> {
     private final ItemCityViewModel mViewModel;
 
     public CityItem(City city) {
-        mViewModel = new ItemCityViewModel(city);
+        mViewModel = new ItemCityViewModel(city, null);
     }
 
     @Override

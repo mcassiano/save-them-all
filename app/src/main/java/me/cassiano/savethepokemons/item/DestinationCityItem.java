@@ -15,8 +15,8 @@ public class DestinationCityItem implements Item<ItemDestinationCityBinding> {
 
     private final ItemCityViewModel mViewModel;
 
-    public DestinationCityItem(City city) {
-        mViewModel = new ItemCityViewModel(city);
+    public DestinationCityItem(City city, City origin) {
+        mViewModel = new ItemCityViewModel(city, origin);
     }
 
     @Override

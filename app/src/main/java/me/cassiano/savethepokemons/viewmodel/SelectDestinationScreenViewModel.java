@@ -24,7 +24,7 @@ public class SelectDestinationScreenViewModel implements IViewModel {
         cities.remove(origin);
 
         for (City city : cities)
-            mAdapter.addItem(new DestinationCityItem(city));
+            mAdapter.addItem(new DestinationCityItem(city, origin));
     }
 
     @Override
